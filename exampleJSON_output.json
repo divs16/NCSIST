@@ -1,0 +1,87 @@
+{
+"base\_acf\_path": "E:/stage1/oil/DAYUAN.acf",
+"objects": \[
+{
+"name": "Fire1",
+"position": {
+"x": 0,
+"y": 0,
+"z": -50
+},
+"rotation": {
+"h": 270,
+"p": 0,
+"r": 0
+},
+"scale": {
+"x": 1,
+"y": 1,
+"z": 1
+},
+"fxs": \[
+{
+"template": "fire",
+"name": "Fire1",
+"position": {
+"x": 0,
+"y": 0,
+"z": 50
+},
+"rotation": {
+"h": 0,
+"p": 0,
+"r": 0
+},
+"scale": {
+"x": 50,
+"y": 50,
+"z": 50
+}
+}
+],
+"model\_path": ""
+},
+{
+"name": "Fire2",
+"position": {
+"x": 200,
+"y": -130,
+"z": -50
+},
+"rotation": {
+"h": 270,
+"p": 0,
+"r": 0
+},
+"scale": {
+"x": 1,
+"y": 1,
+"z": 1
+},
+"fxs": \[
+{
+"template": "fire",
+"name": "Fire2",
+"position": {
+"x": 0,
+"y": 0,
+"z": 50
+},
+"rotation": {
+"h": 0,
+"p": 0,
+"r": 0
+},
+"scale": {
+"x": 70,
+"y": 70,
+"z": 70
+}
+}
+],
+"model\_path": ""
+}
+],
+"height\_start": 2000,
+"distance\_interval": 600
+}
