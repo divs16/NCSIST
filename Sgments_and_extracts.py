@@ -6,8 +6,8 @@ from segment_anything import sam_model_registry, SamAutomaticMaskGenerator
 import matplotlib.pyplot as plt
 
 # --- SETUP ---
-image_path = "sat_test.png"  # Change if needed
-checkpoint = "sam_vit_h_4b8939.pth"
+image_path = "/Users/divyanshisharma/Downloads/segment-anything/sat_test.png"
+checkpoint = "/Users/divyanshisharma/Downloads/segment-anything/sam_vit_h_4b8939.pth"
 model_type = "vit_h"
 
 # Load image
