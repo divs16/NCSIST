@@ -1,3 +1,16 @@
+Scene Generation Pipeline Overview
+Goals:
+Automate the generation of simulation-ready .json files by:
+
+Segmenting satellite images
+
+Deciding object placements using rules
+
+Outputting properly aligned Vega Prime scene configs
+
+
+
+
 Current Progress (as of May 18, 2025)
 I extracted the largest mask from the SAM2-based segmentation output of a satellite image. The next step, as discussed, was to automate the process of generating a JSON prompt for object placement using the GPT API. However, I ran into issues setting up the correct libraries and importing the necessary modules to make API calls on my local machine.
 
